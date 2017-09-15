@@ -18,6 +18,8 @@ $masthead-link-color: $text-color !default;
 $masthead-link-color-hover: mix(#000, $text-color, 20%) !default;
 $navicon-link-color-hover: mix(#000, $background-color, 30%) !default;
 
+$type-size-3: 2.141em !default;
+
 .author__urls.social-icons .fa,
 .page__footer-follow .social-icons .fa {
   color: inherit;
@@ -25,6 +27,21 @@ $navicon-link-color-hover: mix(#000, $background-color, 30%) !default;
 code.highlighter-rouge {
   color: mix($primary-color, $text-color, 25%);
 }
-.page__title, .visible-links a {
+
+.page__title,
+.visible-links a {
   color: $primary-color !important;
 }
+.masthead {
+  display: none !important;
+}
+// .page__title {
+//   font-family: "Fira Sans", sans-serif
+// }
+// .page__title {
+//   font-size: $type-size+2;
+
+//   @include breakpoint($small) {
+//     font-size: $type-size-1;
+//   }
+// }

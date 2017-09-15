@@ -9,7 +9,7 @@ minimal_mistakes_skin    : "mine" # "default", "air", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en"
-title                    : "Budi Adiono"
+title                    : "Coding Notes"
 title_separator          : "-"
 name                     : "Budi Adiono"
 description              : "A coding notes."
@@ -81,7 +81,7 @@ analytics:
 author:
   name             : "Budi Adiono"
   avatar           : "/assets/images/bio-photo.png"
-  bio              : # "I am an amazing person."
+  bio              : "Let's talk about .NET, Javascript & Typescript" # "I am an amazing person."
   location         : "Indonesia" # "Somewhere"
   email            :
   uri              :
@@ -91,7 +91,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           :
+  github           : "budiadiono"
   gitlab           :
   google_plus      :
   keybase          :
